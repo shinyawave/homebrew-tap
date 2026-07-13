@@ -5,14 +5,14 @@ Homebrew tap for [**StewardAuth**](https://github.com/shinyawave/stewardauth) â€
 ## Install
 
 ```bash
-brew install --cask shinyawave/tap/stewardauth
-```
-
-or:
-
-```bash
 brew tap shinyawave/tap
 brew install --cask stewardauth
+```
+
+If Homebrew (6.0+) asks you to trust this third-party tap, run once:
+
+```bash
+brew trust shinyawave/tap
 ```
 
 ## First launch (one time)
